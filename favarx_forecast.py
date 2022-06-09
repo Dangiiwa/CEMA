@@ -67,7 +67,8 @@ def favarx_forecast():
     # col2.subheader("Forecast values DataFrame")
     col2.dataframe(forecastdf['dlRY'])
 
-    st.write( "Quarters: ", quarter)
+    st.write( "Quarters: ", 4)
+    # st.write( "Quarters: ", quarter)
     # "ExogFuture:", exogForecast,
 
     gg = growth_rate['RY']
