@@ -21,7 +21,7 @@ def favarx_forecast():
 
     st.sidebar.write("Select Exogenous Values")
 
-    quarter = st.sidebar.number_input("Number of Quarters", 1, 4, 4)
+    # quarter = st.sidebar.number_input("Number of Quarters", 1, 4, 4)
     COP = st.sidebar.slider("Crude Oil Price", 0, 120, 50)
     GXP = st.sidebar.slider("GXP", 1000000, 99999999, 4024610)
     MPMIS = st.sidebar.slider("MPMIS", 0, 100, 51)
